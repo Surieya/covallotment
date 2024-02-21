@@ -12,7 +12,7 @@ createConnection();
 
 app.use(express.json());
 app.use(cors({
-    option:['http://localhost:5173']
+  
 }))
 
 app.use('/api/auth', authRoutes);
