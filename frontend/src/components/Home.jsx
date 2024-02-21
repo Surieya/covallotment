@@ -5,7 +5,7 @@ import HospitalDetails from "./HospitalDetails";
 import axios from "axios";
 import { useQuery } from "react-query";
 
-const URL = "http://localhost:8000";
+const URL = "https://covallotment.onrender.com";
 
 const Home = () => {
   console.log("HOME");

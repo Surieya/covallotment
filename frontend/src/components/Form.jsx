@@ -4,7 +4,7 @@ import { useMutation, useQueryClient } from "react-query";
 import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
 import useAuth from "../hooks/UseAuth";
-const URL = "http://localhost:8000";
+const URL = "https://covallotment.onrender.com";
 
 const Form = ({ details, id }) => {
   const [slot, setSlot] = useState("");

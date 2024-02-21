@@ -4,7 +4,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { useMutation, useQueryClient } from "react-query";
 import { useNavigate } from "react-router-dom";
-const URL = "http://localhost:8000";
+const URL = "https://covallotment.onrender.com";
 
 const Register = () => {
   console.log("Register");

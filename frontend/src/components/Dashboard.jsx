@@ -6,7 +6,7 @@ import axios from "axios";
 import useAuth from "../hooks/UseAuth";
 import { Navigate } from "react-router-dom";
 import AddHospitalForm from "./AddHospitalForm";
-const URL = "http://localhost:8000";
+const URL = "https://covallotment.onrender.com";
 const Dashboard = () => {
   const [showHospitals, setShowHospitals] = useState(true);
   const [showUsers, setShowUsers] = useState(false);
