@@ -3,7 +3,7 @@ import { useState } from "react";
 import Hospitals from "./Hospitals";
 import { useQuery } from "react-query";
 import axios from "axios";
-import useAuth from "../hooks/UseAuth";
+import useAuth from "./useAuth";
 import { Navigate } from "react-router-dom";
 import AddHospitalForm from "./AddHospitalForm";
 const URL = "https://covallotment.onrender.com";

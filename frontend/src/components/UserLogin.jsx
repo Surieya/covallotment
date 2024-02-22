@@ -3,7 +3,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useMutation, useQueryClient } from "react-query";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import useAuth from "../hooks/UseAuth";
+import useAuth from "./useAuth";
 const URL = "https://covallotment.onrender.com";
 
 const UserLogin = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import useAuth from "../hooks/UseAuth";
+import useAuth from "./useAuth";
 import Form from "./Form";
 import { Link } from "react-router-dom";
 

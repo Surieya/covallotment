@@ -1,7 +1,7 @@
 import React from "react";
 import { useMutation, useQueryClient } from "react-query";
 import axios from "axios";
-import useAuth from "../hooks/UseAuth";
+import useAuth from "./useAuth";
 import { useNavigate } from "react-router-dom";
 // const URL = "http://localhost:8000";
 const URL = "https://covallotment.onrender.com";

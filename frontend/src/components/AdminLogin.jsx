@@ -4,7 +4,7 @@ import axios from "axios";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useMutation, useQueryClient } from "react-query";
 const URL = "https://covallotment.onrender.com";
-import useAuth from "../hooks/UseAuth";
+import useAuth from "./useAuth";
 
 const AdminLogin = () => {
   console.log("Admin Login");
